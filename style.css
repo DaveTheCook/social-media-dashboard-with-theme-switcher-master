@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.media-conatainer {
+    margin: auto;
+    width: 70vw;
+}
+
+.dashboard-container {
+    position: absolute;
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 100px;
+    padding: 100px 1440px;
+    z-index: -1;
+}
+
+.folowers-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.dark-mode {
+    display: flex;
+    align-items: center;
+}
+
+.dark-mode p {
+    padding-right: 8px;
+    margin-top: 10px;
+}
+
+.social-media {
+    padding-bottom: 20px;
+}
+
+.card {
+    border: none;
+}
+.face {
+    border-top: 3px solid hsl(208, 92%, 53%);
+}
+
+.twitter {
+    border-top: 3px solid hsl(203, 89%, 53%);
+}
+
+.insta {
+    background-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    border-radius: 10px 0px 0px 0px;
+    border-top: 3px solid transparent;
+}
+
+
+.youtube {
+    border-top: 3px solid hsl(348, 97%, 39%);
+}
+
+
+.card-body {
+    text-align: center;
+    background-color: hsl(227, 47%, 96%);
+    
+}
+
+.card-body .follower-num {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.followers {
+    font-size: 8px;
+    letter-spacing: 2px;
+}
+
+.card-body .card-text {
+    font-size: 10px;
+}
+
+.green {
+    color: hsl(163, 72%, 41%);
+}
+
+.red {
+    color: hsl(356, 69%, 56%);
+}
+
+.card-body img {
+    margin-right: 5px;
+}
+
+.view {
+    margin: 10px;
+}
